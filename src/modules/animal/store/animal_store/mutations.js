@@ -13,5 +13,3 @@ export const updateState = (state, { key, keySearch, value }) => {
   console.log("INDEX: ", index);
   state[key][index] = value;
 };
-
-
